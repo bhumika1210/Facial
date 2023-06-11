@@ -20,8 +20,8 @@ face_haar_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_
 app = Flask(__name__)
 
 def gen_frames():  # generate frame by frame from camera
-  camera = cv2.VideoCapture(0)
     while True:
+        camera = cv2.VideoCapture(0)
         # Capture frame by frame
         success, frame = camera.read()
         if not success:
