@@ -29,7 +29,7 @@ emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Open a video capture
-video_capture = cv2.VideoCapture(-1)
+video_capture = cv2.VideoCapture(1)
 
 # Define the delay between each frame (in seconds)
 delay = 2
