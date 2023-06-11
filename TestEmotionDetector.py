@@ -16,7 +16,7 @@ emotion_model.load_weights("model/emotion_model.h5")
 print("Loaded model from disk")
 
 # start the webcam feed
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(-1)
 
 # pass here your video path
 # you may download one from here : https://www.pexels.com/video/three-girls-laughing-5273028/
